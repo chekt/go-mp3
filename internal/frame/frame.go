@@ -19,12 +19,12 @@ import (
 	"io"
 	"math"
 
-	"github.com/hajimehoshi/go-mp3/internal/bits"
-	"github.com/hajimehoshi/go-mp3/internal/consts"
-	"github.com/hajimehoshi/go-mp3/internal/frameheader"
-	"github.com/hajimehoshi/go-mp3/internal/imdct"
-	"github.com/hajimehoshi/go-mp3/internal/maindata"
-	"github.com/hajimehoshi/go-mp3/internal/sideinfo"
+	"github.com/chekt/go-mp3/internal/bits"
+	"github.com/chekt/go-mp3/internal/consts"
+	"github.com/chekt/go-mp3/internal/frameheader"
+	"github.com/chekt/go-mp3/internal/imdct"
+	"github.com/chekt/go-mp3/internal/maindata"
+	"github.com/chekt/go-mp3/internal/sideinfo"
 )
 
 var (
