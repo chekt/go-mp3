@@ -212,3 +212,9 @@ func NewDecoder(r io.Reader) (*Decoder, error) {
 
 	return d, nil
 }
+
+//BytesPerFrame returns d.bytesPerFrame
+func (d *Decoder) BytesPerFrame() int64 {
+	return d.bytesPerFrame
+}
+
